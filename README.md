@@ -1,4 +1,4 @@
-## Math magicians : setup
+## Math magicians: components
 In this project I have continued with the development of the Math Magicians app. I have added a componetnt to my React Application that will hold the core funtionality of a calculator.
 
 !(./src/images/calculator.png)
