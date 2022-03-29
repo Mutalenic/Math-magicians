@@ -1,6 +1,8 @@
 ## Math magicians : setup
 This is the first project of the Math Magicians application. I have set up the environment and tools needed to develop a React application.
 
+!(./src/images/calculator.png)
+
 ## Built With
 This project is built with: 
 - React
