@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background-color: aqua;
+  background-color: rgba(0, 255, 255, 0.404);
+  border: none;
 }
 
 .layout {
@@ -12,7 +13,16 @@ body {
 .print {
   background-color: black;
   color: white;
-  padding: 5% 3%;
+  padding: 1% 1%;
+}
+.printout {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 button {
@@ -26,4 +36,8 @@ button {
 .keyboard {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.designcolor2 {
+  background-color: hsla(240, 100%, 50%, 0.322);
 }

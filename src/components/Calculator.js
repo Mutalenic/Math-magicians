@@ -9,7 +9,10 @@ export default class Calculator extends React.Component {
   render() {
     return (
       <div className="layout">
-        <div className="print">0</div>
+        <div className="print">
+          {' '}
+          <h3 className="printout">0 </h3>
+        </div>
         <div className="keyboard">
           <button type="button" className="designcolor" id="Clear">AC</button>
           <button type="button" className="designcolor" id="plusMinus">+/-</button>
