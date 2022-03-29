@@ -7,7 +7,7 @@ body {
 .layout {
   display: flex;
   flex-direction: column;
-  margin: 15% 35%;  
+  margin: 15% 35%;
 }
 
 .print {
@@ -15,6 +15,7 @@ body {
   color: white;
   padding: 1% 1%;
 }
+
 .printout {
   display: flex;
   justify-content: flex-end;
