@@ -47,3 +47,7 @@ Feel free to check the [https://mutalenic.github.io/Math-magicians/issues]
 ## Show your support
 
 Give a ⭐️ if you like this project
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
