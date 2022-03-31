@@ -1,5 +1,5 @@
-## Math magicians: Events
-In this project I have continued with the development of the Math Magicians app. I have added a logic component that makes the app work.
+## Math Magicians: Refactor with hooks
+In this project I have refactored the Calculator component that I  developed in the past projects. Instead of using class based components, I have used hooks.
 
 !(./src/images/calculator.png)
 
@@ -47,3 +47,7 @@ Feel free to check the [https://mutalenic.github.io/Math-magicians/issues]
 ## Show your support
 
 Give a ⭐️ if you like this project
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
