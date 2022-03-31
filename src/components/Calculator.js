@@ -24,15 +24,15 @@ const Calculator = () => {
         <button type="button" className="designcolor" onClick={updateCal} id="seven">7</button>
         <button type="button" className="designcolor" onClick={updateCal} id="eight">8</button>
         <button type="button" className="designcolor" onClick={updateCal} id="nine">9</button>
-        <button type="button" className="designcolor2" onClick={updateCal} id="multiply">&times;</button>
+        <button type="button" className="designcolor2" onClick={updateCal} id="multiply">x</button>
         <button type="button" className="designcolor" onClick={updateCal} id="six">6</button>
         <button type="button" className="designcolor" onClick={updateCal} id="five">5</button>
         <button type="button" className="designcolor" onClick={updateCal} id="four">4</button>
-        <button type="button" className="designcolor2" onClick={updateCal} id="minus">&minus;</button>
+        <button type="button" className="designcolor2" onClick={updateCal} id="minus">-</button>
         <button type="button" className="designcolor" onClick={updateCal} id="three">3</button>
         <button type="button" className="designcolor" onClick={updateCal} id="two">2</button>
         <button type="button" className="designcolor" onClick={updateCal} id="one">1</button>
-        <button type="button" className="designcolor2" onClick={updateCal} id="one">+</button>
+        <button type="button" className="designcolor2" onClick={updateCal} id="plus">+</button>
         <button type="button" className="designcolor" onClick={updateCal} id="zero">0</button>
         <button type="button" className="designcolor" onClick={updateCal} id="decimalpoint">&sdot;</button>
         <button type="button" className="designcolor2" onClick={updateCal} id="equals">=</button>
