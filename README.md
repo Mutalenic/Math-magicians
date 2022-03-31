@@ -1,5 +1,5 @@
-## Math magicians: components
-In this project I have continued with the development of the Math Magicians app. I have added a componetnt to my React Application that will hold the core funtionality of a calculator.
+## Math magicians: Events
+In this project I have continued with the development of the Math Magicians app. I have added a logic component that makes the app work.
 
 !(./src/images/calculator.png)
 
