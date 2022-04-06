@@ -4,7 +4,7 @@
 
 .App {
   text-align: center;
-  }
+}
 
 .navbar {
   display: flex;
@@ -15,11 +15,12 @@
   position: fixed;
   top: 1%;
   width: 100%;
-  }
+}
+
 .math {
-    position: fixed;
-    left: 5%;
-    padding-left: -29%;
+  position: fixed;
+  left: 5%;
+  padding-left: -29%;
 }
 
 .navbar ul li {
@@ -38,13 +39,14 @@ ul {
   gap: 2%;
   width: 100%;
 }
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   font-size: 135%;
   padding: 10% 14% 0 20%;
-  background-color: rgb(237, 20, 61, 0.50);
+  background-color: rgb(237, 20, 61, 0.5);
 }
 
 /* On screens that are 992px or less, set the background color to blue */

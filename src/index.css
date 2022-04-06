@@ -1,10 +1,12 @@
 body {
   margin: 0;
   background-image: url("./images/mathpic.jpg");
+
   /* background-repeat: no-repeat; */
   background-size: cover;
   color: white;
   border: none;
+
   /* overflow: auto; */
 }
 
@@ -15,10 +17,10 @@ body {
 }
 
 .container2 {
-      left: 1%;
-      top: 20%;
-      color: crimson;
-      position: fixed;
+  left: 1%;
+  top: 20%;
+  color: crimson;
+  position: fixed;
 }
 
 .print {
