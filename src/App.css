@@ -1,3 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+  padding-right: 6%;
+  position: fixed;
+  top: 1%;
+  width: 100%;
+  }
+.math {
+    position: fixed;
+    left: 5%;
+    padding-left: -29%;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar .navbar-link {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2%;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 135%;
+  padding: 10% 14% 0 20%;
+  background-color: rgb(237, 20, 61, 0.50);
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .navbar .navbar-link {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    font-size: 2rem;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .navbar .navbar-link {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    font-size: 1rem;
+  }
 }
