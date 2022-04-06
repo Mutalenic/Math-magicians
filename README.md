@@ -1,7 +1,9 @@
-## Math Magicians: Refactor with hooks
-In this project I have refactored the Calculator component that I  developed in the past projects. Instead of using class based components, I have used hooks.
+## Math Magicians: Full Website
+In this project, I created a full website for the Math magicians app, consisting of several pages and using the components that I already created.
 
 !(./src/images/calculator.png)
+!(./src/images/Screenshotone.png) !(./src/images/Screenshottwo.png)
+!(./src/images/Screenshotthree.png)
 
 ## Built With
 This project is built with: 
