@@ -1,4 +1,4 @@
-Math Magicians: Tests
+## Math Magicians: Tests
 In this project, we wrote unit tests for the Math Magicians app, using the Jest and React Testing Library libraries.
 
 ![Screenshotone](https://user-images.githubusercontent.com/19844175/162332061-32eb84d2-6ced-433a-9420-04ac27a915b6.png)
@@ -44,7 +44,7 @@ Use npm run build to run the app in live server
  ## moise mulungu
  - GitHub: [@GitHub/moise-mulungu](https://github.com/moise-mulungu)
  - Twitter: [@Twitter/moise_mulungu](https://twitter.com/moise_mulungu)
- 
+
 ## Chia Carlyle
  - GitHub: [@GitHub.com/carlylechia](https://github.com/carlylechia)
  - LinkedIn: [@LinkedIn/chia-carlyle](https://www.linkedin.com/in/chia-carlyle/)
