@@ -52,7 +52,7 @@ describe('test calculations', () => {
 
     const res = calculate(obj, '÷');
     expect(parseInt(res.total, 10)).toBe(2);
-  })
+  });
 
   test('positive and negative', () => {
     const obj = {
@@ -63,7 +63,7 @@ describe('test calculations', () => {
 
     const res = calculate(obj, '+/-');
     expect(parseInt(res.total, 10)).toBe(-70);
-  })
+  });
 
   test('test equal', () => {
     const obj = {
@@ -73,7 +73,7 @@ describe('test calculations', () => {
     };
     const res = calculate(obj, '=');
     expect(parseInt(res.next, 10)).toBe(NaN);
-  })
+  });
 
   test('number', () => {
     const obj = {
@@ -83,5 +83,5 @@ describe('test calculations', () => {
     };
     const res = calculate(obj, '54');
     expect(res.next).toBe('54');
-  });   
+  });
 });
