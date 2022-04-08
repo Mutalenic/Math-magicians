@@ -9,6 +9,11 @@ This project is built with:
 - React
 - CSS
 - JavaScript
+## Live Demo
+- [Heroku](https://mathmagicians21.herokuapp.com/)
+or
+- [Netlify](https://splendorous-profiterole-89276c.netlify.app/)
+
 ## Getting Started
 To get the content of this project locally you need to run this command in your terminal:
 
