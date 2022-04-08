@@ -42,4 +42,46 @@ describe('test calculations', () => {
     const res = calculate(obj, 'x');
     expect(parseInt(res.total, 10)).toBe(4);
   });
+
+  test('test division', () => {
+    const obj = {
+      total: 8,
+      next: 4,
+      operation: '÷',
+    };
+
+    const res = calculate(obj, '÷');
+    expect(parseInt(res.total, 10)).toBe(2);
+  })
+
+  test('positive and negative', () => {
+    const obj = {
+      total: 70,
+      next: null,
+      operation: null,
+    };
+
+    const res = calculate(obj, '+/-');
+    expect(parseInt(res.total, 10)).toBe(-70);
+  })
+
+  test('test equal', () => {
+    const obj = {
+      total: 70,
+      next: 9,
+      operation: '-',
+    };
+    const res = calculate(obj, '=');
+    expect(parseInt(res.next, 10)).toBe(NaN);
+  })
+
+  test('number', () => {
+    const obj = {
+      total: '0',
+      next: null,
+      operation: '+',
+    };
+    const res = calculate(obj, '54');
+    expect(res.next).toBe('54');
+  });   
 });
