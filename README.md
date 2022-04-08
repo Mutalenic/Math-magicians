@@ -44,6 +44,7 @@ Use npm run build to run the app in live server
  ## moise mulungu
  - GitHub: [@GitHub/moise-mulungu](https://github.com/moise-mulungu)
  - Twitter: [@Twitter/moise_mulungu](https://twitter.com/moise_mulungu)
+ - LinkedIn: [Moise Mulungu](https://www.linkedin.com/in/mo%C3%AFse-mulungu-a939831b2/)
 
 ## Chia Carlyle
  - GitHub: [@GitHub.com/carlylechia](https://github.com/carlylechia)

@@ -22,11 +22,6 @@ describe('Test the components', () => {
     const renderQuote = render(<Quote />);
     expect(renderQuote).toMatchSnapshot();
   });
-
-  // test('Navigation bar render test', () => {
-  //     const renderNav = render(<Navbar />);
-  //     expect (renderNav).toMatchSnapshot();
-  // });
 });
 
 // user interaction tests for components
